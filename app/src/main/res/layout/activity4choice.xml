@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity4Choice">
+
+
+    <ImageView
+        android:id="@+id/imageView1_bg4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="centerCrop"
+        />
+    <!--背景图为bg4，同所有的Activity4的都相同-->
+    <ImageView
+        android:id="@+id/imageView2_camera"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        app:layout_heightPercent="20%"
+        app:layout_marginTopPercent="15%"
+        app:layout_widthPercent="45%"
+        app:srcCompat="@drawable/camera" />
+
+    <TextView
+        android:id="@+id/textView1_takephoto"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/imageView2_camera"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:autoSizeTextType="uniform"
+        android:text="点击拍照"
+        android:gravity="center"
+        android:textColor="#d4237a"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="6%"/>
+
+
+
+    <ImageView
+        android:id="@+id/imageView3_album"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/textView1_takephoto"
+        android:layout_centerHorizontal="true"
+        app:layout_marginTopPercent="10%"
+        app:layout_widthPercent="45%"
+        app:layout_heightPercent="20%"
+        app:srcCompat="@drawable/album" />
+
+    <TextView
+        android:id="@+id/textView2_albumselect"
+        android:layout_below="@+id/imageView3_album"
+        android:layout_centerHorizontal="true"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:autoSizeTextType="uniform"
+        android:text="相册选择"
+        android:gravity="center"
+        android:textColor="#d4237a"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="6%"/>
+
+
+
+</android.support.percent.PercentRelativeLayout>

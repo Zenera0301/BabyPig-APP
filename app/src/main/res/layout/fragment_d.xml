@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="1dip"
+    android:background="#FFF7F7F7">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/rl_d1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:padding="5dip">
+
+        <Button
+            android:id="@+id/btn_d1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="  羊场监测"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+           />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_d2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip"
+        android:padding="5dip">
+
+        <Button
+            android:id="@+id/btn_d2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="  企业文化"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_d3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip"
+        android:padding="5dip">
+
+        <Button
+            android:id="@+id/btn_d3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="  现任领导"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_d4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip"
+        android:padding="5dip">
+
+        <Button
+            android:id="@+id/btn_d4"
+            android:layout_width="wrap_content"
+            android:layout_height="83dp"
+            android:layout_alignParentTop="true"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="  联系我们"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+</LinearLayout>
